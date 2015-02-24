@@ -15,7 +15,10 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+
+    "com.2fdevs.videogular",
+    "com.2fdevs.videogular.plugins.controls"
   ])
   .config(function ($routeProvider) {
     $routeProvider
